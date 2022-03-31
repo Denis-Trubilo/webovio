@@ -1,0 +1,337 @@
+@media (max-width: 2560px) {
+    /*.project .container {
+        max-width: 1920px;
+    }
+    .project__wrapper {
+        justify-content: center;
+    }*/
+}
+
+
+@media (max-width: 1920px) {
+    .investors .container {
+        max-width: 90%;
+    }
+
+    .investors__list {
+        justify-content: flex-start;
+    }
+    .start .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .project-reverse .project__image {
+        margin-left: 12.5%;
+        margin-right: -13%;
+    }
+}
+
+@media (max-width: 1270px) {
+    .investors .container {
+        max-width: 95%;
+    }
+
+    .investors__list li:not(:last-child) {
+        padding-right: 30px;
+    }
+
+    .about {
+        margin-bottom: 150px;
+    }
+
+    .project-reverse .project__image {
+        margin-left: 12.5%;
+        margin-right: -12.5%;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .investors .container {
+        padding-left: 30px;
+    }
+    .investors__list li:not(:last-child) {
+        padding-right: 25px;
+    }
+
+    .caption {
+        margin-bottom: 60px;
+    }
+
+    .caption__wrapper {
+        max-width: 100%;
+    }
+    
+    .caption__title {
+        width: 50%;
+    }
+    
+    .caption__text {
+        width: 50%;
+    }
+
+    .project-first,
+    .project-reverse,
+    .project-last {
+        margin-bottom: 120px;
+    }
+
+    .project__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .project__image {
+        margin-bottom: 60px;
+        margin-right: 0;
+    }
+    
+    .project__review {
+        right: -260px;
+        bottom: -35px;        
+    }
+
+    .info {
+        max-width: 100%;
+    }
+
+    .info__title {
+        max-width: 420px;
+    }
+
+    .info__text {
+        margin-bottom: 40px;
+    }
+
+    .project-reverse .project__review {
+        left: -240px;
+    }
+
+    .project-reverse .info__title {
+        margin-left: auto;
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .advantages {
+        margin-bottom: 280px;
+    }
+
+    .advantages__row {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .column-advantage {
+        flex: 0 1 40%;
+        margin-bottom: 70px;  
+    }
+
+    .column-advantage__link {
+        margin-top: 15px;
+    }
+
+    .menu-footer__row {
+        flex-wrap: wrap;
+    }
+
+    .menu-footer__column {
+        flex: 0 1 33.333%;
+    }
+
+    .menu-footer__column:last-child {
+        padding-left: 0;
+        border-left: none;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .investors .container {
+        max-width: 100%;
+        padding: 30px;
+    }
+
+    .investors__list {
+        flex-wrap: wrap;
+    }
+
+    .investors__list li {
+        
+    }
+
+    .project__review {
+        right: -160px;
+    }
+
+    .project-reverse .project__review {
+        left: -140px;
+    }
+
+    .project__review {
+        right: -20px;
+    }
+
+    .project-reverse .project__review {
+        left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .investors__list {
+        justify-content: center;
+    }
+
+    .caption__wrapper {
+        max-width: 100%;
+    }
+
+    .caption__title {
+        flex: 1 1 52%;
+    }
+
+    .caption__text {
+        flex: 1 1 auto;
+    }
+
+    .about .container {
+        flex-wrap: wrap;
+    }
+
+    .about__item {
+        max-width: 100%;
+        margin-bottom: 40px;
+        padding: 0 50px;
+    }
+
+    .about__review {
+        max-width: 100%;
+    }
+
+    .project__review {
+        right: -10px;
+    }
+
+    .project-reverse .project__review {
+        left: 0px;
+    }
+
+    .start .container {
+        padding: 50px 0;
+    }
+
+    .start__title {
+        font-size: 40px;  
+    }
+
+    .footer {
+        padding-top: 170px;
+    }
+
+    .menu-footer__column:not(:last-child) {
+        flex: 0 1 26%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .promo {
+        padding-top: 150px;
+    }
+
+    .promo__title {
+        font-size: 40px;
+    }
+
+    .investors {
+        margin-bottom: 400px;
+    }
+
+    .about__item {
+        padding: 0;
+    }
+
+    .about__review {
+        padding: 0;
+    }
+
+    .about__review .review__text,
+    .review__text {
+        font-size: 16px;
+    }
+
+    .about__title,
+    .caption__title,
+    .info__title,
+    .advantages__title {
+        font-size: 28px;
+    }
+
+    .caption__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .caption__title {
+        margin-bottom: 20px;
+    }
+
+    .caption__title,
+    .caption__text {
+        width: 100%;
+    }
+
+
+    .project__image {  
+        flex: 1 1 100%;           
+    }
+
+    .project__image img{
+        max-width: 425px;
+    }
+
+    .project-reverse .project__review {
+        left: 20px;
+        
+    }
+
+    .project__review {
+        width: 300px;
+        right: 20px;
+        bottom: -200px;
+    }
+
+    .project-first,
+    .project-reverse,
+    .project-last {
+        margin-bottom: 70px;
+    }
+
+    .project__image {
+        margin-bottom: 250px;
+    }
+
+    .advantages {
+        margin-bottom: 170px;
+    }
+
+    .column-advantage {
+        flex: 0 1 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .start__title {
+        font-size: 30px;
+    }
+
+    .top-footer {
+        flex-wrap: wrap;
+    }
+    .top-footer__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
