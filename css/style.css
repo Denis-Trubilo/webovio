@@ -26,8 +26,6 @@ body {
 	line-height: 162.5%;
 }
 
-
-
 .container {
 	width: 80%;
 	max-width: 1140px;
@@ -65,7 +63,7 @@ body {
 	background-image: url(../img/arrow.png);
 }
 
-/*------------------------------------*/
+/*--------------nav----------------------*/
 
 .nav {
 	position: absolute;
@@ -79,10 +77,6 @@ body {
 .nav .container {
 	display: flex;
 	justify-content: space-between;
-}
-
-.nav__logo {
-
 }
 
 .nav__menu {
@@ -99,13 +93,11 @@ body {
 
 .nav__link a {
 	color: #fff;
-	transition: 500ms;
-	
+	transition: 500ms;	
 }
 
 .nav__link a:hover {
-	color: #ffd723;
-	
+	color: #ffd723;	
 }
 
 .nav__link li {
@@ -163,7 +155,7 @@ body {
 	margin-bottom: 3px;
 }
 
-/*------------------------------------*/
+/*--------------promo----------------------*/
 
 .promo {
 	background-image: url(../img/bg1.png);
@@ -220,7 +212,7 @@ body {
 	border-bottom: 1px solid #D4D6D4;
 }
 
-/*------------------------------------*/
+/*----------------investors--------------------*/
 
 .investors {
 	margin-bottom: 250px;
@@ -251,7 +243,7 @@ body {
 	padding-right: 65px;
 }
 
-/*------------------------------------*/
+/*-----------------about-------------------*/
 
 .about {
 	margin-bottom: 350px;
@@ -319,7 +311,7 @@ body {
 	line-height: 24px;
 }
 
-/*------------------------------------*/
+/*-----------------caption-------------------*/
 
 .caption {
 	margin-bottom: 110px;
@@ -346,16 +338,10 @@ body {
 	width: 52%;
 }
 
-/*------------------------------------*/
+/*----------------project-first--------------------*/
 
 .project-first {
 	margin-bottom: 165px;
-}
-
-.project .container {
-	/*margin: 0 auto;
-	width: 100%;
-	max-width: 100%;*/	
 }
 
 .project__wrapper {
@@ -380,8 +366,7 @@ body {
 	border-radius: 8px;
 	padding: 30px;
 	width: 453px;
-	box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
-	
+	box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);	
 }
 
 .review {
@@ -421,13 +406,8 @@ body {
 	font-size: 16px;
 }
 
-.project__info {
-
-}
-
 .info {
 	max-width: 420px;
-	
 }
 
 .info__title {
@@ -451,7 +431,7 @@ body {
 	background-image: url(../img/arrow-gray.png);
 }
 
-/*------------------------------------*/
+/*----------------project-reverse--------------------*/
 
 .project-reverse {
 	margin-bottom: 165px;
@@ -470,13 +450,13 @@ body {
 	left: -40px;
 }
 
-/*------------------------------------*/
+/*---------------project-last---------------------*/
 
 .project-last {
 	margin-bottom: 335px;
 }
 
-/*------------------------------------*/
+/*-----------------advantages-------------------*/
 
 .advantages {
 	margin-bottom: 320px;
@@ -525,7 +505,7 @@ body {
 }
 
 
-/*------------------------------------*/
+/*----------------start--------------------*/
 
 
 .start {	
@@ -566,7 +546,7 @@ body {
 	text-transform: uppercase;
 }
 
-/*------------------------------------*/
+/*---------------footer---------------------*/
 
 
 .footer {
@@ -606,11 +586,7 @@ body {
 	font-weight: 700;
 }
 
-.top-footer__contact {
-
-}
-
-/*----------------*/
+/*-------footer__menu---------*/
 
 .footer__menu {
 
@@ -622,10 +598,6 @@ body {
 .menu-footer__row {
 	display: flex;
 	justify-content: space-between;
-}
-
-.menu-footer__column {
-
 }
 
 .menu-footer__column:last-child {
@@ -714,7 +686,7 @@ body {
 	height: 18px;
 }
 
-/*----------------*/
+/*--------footer__bottom--------*/
 
 .footer__bottom {
 	padding-top: 25px;
@@ -725,9 +697,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-.bottom-footer__logo {
 
-}
 .bottom-footer__copyright {
 	font-size: 16px;
 	line-height: 150%;
